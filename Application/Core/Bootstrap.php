@@ -8,7 +8,7 @@ use Application\Views\Home;
 //An instance that will be passed as a parameter to mapper factory.
 $dbhProvider = function (){
     //Create connection.
-    $instance = new \mysqli('localhost', 'root', 'rabackoff', 'BLOG');
+    $instance = new \mysqli('localhost', USERNAME, PASSWORD 'BLOG');
     return $instance;
 };
 
